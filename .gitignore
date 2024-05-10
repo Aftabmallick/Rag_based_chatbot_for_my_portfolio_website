@@ -1,3 +1,5 @@
 .env
 venv
 __pycache__
+Rag_based_chatbot.egg-info/
+logs

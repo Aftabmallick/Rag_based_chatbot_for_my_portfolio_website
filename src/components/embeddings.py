@@ -9,7 +9,7 @@ from src.utils import read_Doc
 from dataclasses import dataclass
 import os
 from dotenv import load_dotenv, find_dotenv
-import dill
+
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Pinecone

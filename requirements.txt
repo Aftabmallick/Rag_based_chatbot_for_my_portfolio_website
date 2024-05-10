@@ -9,4 +9,5 @@ numpy
 python-dotenv
 streamlit
 langchain_openai
+
 -e .

@@ -1,0 +1,4 @@
+[ 2024-05-09 22:51:47,722 ] 21 root - INFO - Entered into data ingestion component
+[ 2024-05-09 22:51:55,831 ] 27 root - INFO - file reading complete
+[ 2024-05-09 22:51:55,831 ] 14 root - INFO - Data transformation started
+[ 2024-05-09 22:51:55,864 ] 16 root - INFO - Data transformation successful

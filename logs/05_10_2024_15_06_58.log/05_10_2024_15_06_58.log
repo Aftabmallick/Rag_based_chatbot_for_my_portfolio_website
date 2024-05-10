@@ -1,0 +1,4 @@
+[ 2024-05-10 15:07:03,415 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-05-10 15:07:04,610 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-05-10 15:07:16,216 ] 1047 openai._base_client - INFO - Retrying request to /completions in 0.813949 seconds
+[ 2024-05-10 15:07:18,445 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"

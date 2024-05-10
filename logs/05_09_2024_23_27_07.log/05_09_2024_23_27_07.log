@@ -1,0 +1,9 @@
+[ 2024-05-09 23:27:09,622 ] 22 root - INFO - Entered into data ingestion component
+[ 2024-05-09 23:27:18,877 ] 28 root - INFO - file reading complete
+[ 2024-05-09 23:27:18,877 ] 14 root - INFO - Data transformation started
+[ 2024-05-09 23:27:18,910 ] 16 root - INFO - Data transformation successful
+[ 2024-05-09 23:27:19,959 ] 32 root - INFO - Entered into embedding step
+[ 2024-05-09 23:27:27,112 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-05-09 23:27:36,394 ] 34 root - INFO - Succefully uploaded data in pinecone
+[ 2024-05-09 23:27:36,862 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[ 2024-05-09 23:27:40,713 ] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"

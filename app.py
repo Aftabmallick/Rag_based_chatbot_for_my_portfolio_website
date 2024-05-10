@@ -41,8 +41,8 @@ def get_response(user_input):
     return response['answer']
 st.set_page_config(page_title="Chat With Websites",page_icon="")
 
-st.title("Ask about Me And My Projects")
-st.write("Welcome to the chat app! Feel free to ask about Me and My projects.")
+st.title("Ask about Me:")
+st.write("Welcome to the chat app!")
 if "chat_history" not in st.session_state:
         st.session_state.chat_history=[
             AIMessage(content = "Hello I am a bot, How can I help you?"),

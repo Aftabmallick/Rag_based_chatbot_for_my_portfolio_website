@@ -23,7 +23,7 @@ def get_context_retriever_chain(vector_store,opkey):
 def get_conversational_rag_chain(retriever_chain,opkey):
     llm = ChatOpenAI(openai_api_key=opkey)
     prompt = ChatPromptTemplate.from_messages([
-        ("system","Answer the user's questions based on the below context:\n\n{context}"),
+        ("system","Your name is Aftab Mallick.Next your resume and more details will be provided.Answer the user's questions based on the below context:\n\n{context}"),
         MessagesPlaceholder(variable_name="chat_history"),
         ("user","{input}"),
     ])
@@ -45,7 +45,7 @@ st.title("Ask about Me:")
 st.write("Welcome to the chat app!")
 if "chat_history" not in st.session_state:
         st.session_state.chat_history=[
-            AIMessage(content = "Hello I am a bot, How can I help you?"),
+            AIMessage(content = "Hello I am AI Aftab, How can I help you?"),
         ]
 if "vector_store" not in st.session_state:
      vc = AccessIndex()
